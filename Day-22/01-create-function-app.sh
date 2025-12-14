@@ -9,7 +9,7 @@ storage="rv$randomIdentifier"
 functionApp="rv-serverless-python-function-$randomIdentifier"
 skuStorage="Standard_LRS"
 functionsVersion="4"
-pythonVersion="3.9" #Allowed values: 3.7, 3.8, and 3.9
+pythonVersion="3.14" #Allowed values: 3.7, 3.8, and 3.9
 
 # Create a resource group
 echo "Creating $resourceGroup in "$location"..."
